@@ -1,10 +1,11 @@
 public class ExemploWhile {
     public static void main(String[] args) {
         
-        int contador = 0;
-        while (contador < 5) {
-            System.out.println("Contador: " + contador);
-            contador++;
-        }
+        int num = 5, count = 1;
+
+        do{
+            num += count;
+            System.out.println(num);
+        } while (count <=3);
     }
 }
